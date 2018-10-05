@@ -29,13 +29,13 @@ int main() {
 
 	Rational e(7, 8), f(5, 12);
 	cout << "e=" << e << " f=" << f << " e+f=?" << endl;
-	cout << "Ââåäèòå ðåçóëüòàò g=m/n â ôîðìàòå: m n" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ g=m/n Ð² Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ: m n" << endl;
 	Rational g;
 	cin >> g;
 	if (e + f != g)
-		cout << "Íåïðàâèëüíî! e+f=" << e + f << endl;
+		cout << "ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾! e+f="  << e + f << endl;
 	else
-		cout << "Ïðàâèëüíî!" << endl;
+		cout << "ÐŸÑ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾!" << endl;
 
 	system("pause");
 	return 0;
